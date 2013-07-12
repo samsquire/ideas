@@ -68,7 +68,7 @@ Blogs, forums, wikis and social networks solve variations of the same problem. U
 
  * Collecting arbitrary structured data from the recipient rather than just a freestyle comment box at the bottom of a document. Information can be collected *within* the article such as small call to action button buttons that when clicked add form fields for the user to contribute to.
  * Allow users to provide corrections such as spelling (wiki functionality)
- * Split up the document into reuseable components (wiki like transclusion)
+ * Split up the document into reusable components (wiki like transclusion)
  * Rendering display data in multiple ways
  
 Examples:
@@ -82,7 +82,7 @@ regarding a product or when a new product is to be reviewed.
 
 
 	- Ideally the blogger wants to display product attributes consistently and update them from one place.
-	- Creating a summary of reiews at the bottom (without having to duplicate the information)
+	- Creating a summary of reviews at the bottom (without having to duplicate the information)
 	- Ask users for product suggestions, perhaps with an embedded form.
 	- The blogger wants to track the price or offers over time.
 	- Allow users to make comments regarding particular products or ratings. Allow users to give their own ratings for an attribute.
@@ -112,7 +112,7 @@ Life engine is a dashboard that attempts to collect information about your life 
  * to-do list, goals, reminders, calendar integration
  * lent possessions
  * alerts: hard disk space
- * active contractual obligations: appartment complex, mobile phone
+ * active contractual obligations: apartment complex, mobile phone
 
 Existing:
 
@@ -210,7 +210,7 @@ Existing:
  
 ## 12. The Package Manager-Package Manager
 
-There are multiple package managers that have to be controlled with separate programs. Setting up a machine involves installing various package managers. It seems a hierarchy of package managers woud permit installing any number of packages.
+There are multiple package managers that have to be controlled with separate programs. Setting up a machine involves installing various package managers. It seems a hierarchy of package managers would permit installing any number of packages.
 
  * package managers have consistent standard command-line API that lets them be driven by other programs to avoid special cases for package managers
  * can namespace packages of package managers
