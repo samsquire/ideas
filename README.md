@@ -1685,8 +1685,9 @@ Legal documents that state a valid action are supported through the interface if
 Existing:
 
  * [EULAnalyzer](http://www.brightfort.com/eulalyzer.html)
- * [TOS Back](http://www.tosback.org/timeline.php)
+ * [TOS Back](http://tosdr.github.io/ToSBack3/)
  * [Platform for Privacy Preferences Project](http://en.wikipedia.org/wiki/P3P)
+ * [Terms of Service; Didn’t Read](http://tosdr.org)
 
 ## 95. Community Idea: Distributed Development
 
