@@ -137,6 +137,10 @@ A tool to track the decisions of consumers to register their buying decisions in
  * I didn't buy X because Y
  * I chose product X rather than Y because attribute Z
 
+Existing:
+
+ * [buycott](http://buycott.com/)
+
 ## 7. Peer to Peer Blocking
 
 Block by default is inconvenient to users. Community driven blocking reduces risk. Configuration options should be shareable and synchronizable to increase security. The following configurations could be distributed to users who take part:
