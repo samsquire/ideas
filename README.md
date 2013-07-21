@@ -883,7 +883,14 @@ Existing:
  * static site generators
  * Wiki transclusion
  * Word processors, Master documents and transclusion
- 
+ * [IPython notebook](http://pypi.python.org/pypi/ipython)
+   ([nbconvert](http://github.com/ipython/nbconvert),
+   [`IPython.core.display`](http://ipython.org/ipython-doc/stable/api/generated/IPython.core.display.html))
+ * [sphinx](http://pypi.python.org/pypi/sphinx)
+   ([docs](http://sphinx-doc.org/),
+   [ReStructuredText](http://sphinx-doc.org/rest.html))
+ * [schema.org](http://schema.org/docs/full.html) resource metadata ([RDF](http://schema.rdfs.org))
+
 ## 45. Community Idea: Secure Configuration Distribution
 
 Many applications ship with default configurations that are more likely to be vulnerable. A communiy could discuss the security of configuration options and offer files or patchers that ensure that common applications have proper settings. Examples would be preconfigured settings for Firefox, Chrome, Adobe Reader and Word.
