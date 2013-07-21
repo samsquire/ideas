@@ -1194,6 +1194,8 @@ Similar:
 
 Adding notes to websites can function as a form of memory aid. It should be possible for me to add and save notes to a web page in case I come back later.
 
+* [diigo](https://www.diigo.com/) does this
+
 ## 64. Peer to Peer Backup
 
 Backing up files to family and friends makes sense as a form of distributed off-site backup. This has been done by numerous services such as:
@@ -1217,6 +1219,7 @@ Open source bounties would be to implement a new feature or fix a bug.
 Existing:
 
  * [BountySource](https://www.bountysource.com/)
+ * [cantincan](https://www.catincan.com/)
  
 ## 66. Wizards and Forms Request Data
 
@@ -1742,6 +1745,8 @@ Potential integrations:
 ## 97. Community Idea: "Tracked Reasoning"
 
 Viewpoints of a discussion can be identified, related and analysed independently. When a user writes a post, the user can break up the post into separate viewpoints or assertions. These assertions may be ordered logically such as, A implies B then C. Posts will then be cross referenced to see the relationship of each viewpoint and what would need to be true or false to counter an argument.
+
+* [reasonwell](http://www.reasonwell.com/) is an arguement mapping project that does something like this.
 
 ## 98. The Desktop is an Integrated Development Environment
 
