@@ -286,6 +286,10 @@ Infrastructure is complicated and the relationships between hosts, paths, ports 
 
 The spider would scan for configuration files, identify port numbers, paths and hostnames to insert into a graph. When the spider detects a reference to the same value, it creates an edge from both usages to the actual data. This graph then becomes a representation of system configuration, the edges link the configuration values are live and synchronized, an administrator can change the data in a single location and cause the usages to update. This could be rendered to the screen as a graph.
 
+Existing:
+
+ * [The Foreman](http://theforeman.org/)
+
 ## 15. Community Idea: [Create This](id:create-this)
 
 This is like the [Design This](#design-this) but in reverse. Designers create a design and a developer creates a backend for the site. Ideally suited to open source projects.
