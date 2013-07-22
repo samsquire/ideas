@@ -745,6 +745,13 @@ Documentation and wikis are prone to fall behind a code base. Creating documenta
  * Documentation acts as a specialised test case. When example code in the documentation no longer compiles the build should fail.
  * Documentation should be linked to refactoring operations. When variables are renamed or code is moved, all the references to variables and methods should automatically update.
 
+ Existing:
+
+ * Eclipse can perform rename refactors over comments, which includes documentation.
+ * Go's native godoc documentation recognizes [tests written in the form of examples](http://golang.org/pkg/testing), which are verified by the native testing facility `go test`.
+ * Examples in python documentation can be checked with the [doctest](http://docs.python.org/2/library/doctest.html) module to verify they are correct.
+ * Testing libraries designed to read like specs: for example, [RSPec](http://rspec.info/) for Ruby and [ScalaTest](http://www.scalatest.org/) or [specs2](http://etorreborre.github.io/specs2/) for Scala
+
 ## 37. [Code Overlays](id:code-overlays)
 
 Code overlays can make source code more like a document and easier to read. Source code editors make poor use of space when rendering code. For example:
