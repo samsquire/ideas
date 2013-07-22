@@ -238,7 +238,7 @@ There are multiple package managers that have to be controlled with separate pro
  * can namespace packages of package managers
  * the package manager-package manager should let you install arbitrary package managers `mpm install <package manager>`
  
-For example, if you were installing Typo, a blog platform:
+For example, if you were installing [Publify](http://fdv.github.io/publify/), a blog platform:
 
  * you'll need RVM which is installed by script
  * Ruby which is installed by RVM
@@ -246,7 +246,7 @@ For example, if you were installing Typo, a blog platform:
  * Ruby on Rails
  * MySQL
 
-By the end of this process, we've used two custom scripts and two package management systems. First the environment manager (RVM) and a language specific package manager (rubygems) and before we can even think about installing Typo3 with bundle. We still have not actually configured the software.
+By the end of this process, we've used two custom scripts and two package management systems. First the environment manager (RVM) and a language specific package manager (rubygems) and before we can even think about installing Publify with bundle. We still have not actually configured the software.
 
 This could look something like this, where each package manager is namespaced:
 
