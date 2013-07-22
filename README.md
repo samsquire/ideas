@@ -42,7 +42,7 @@ Existing:
 
 ## 2. [Use Email as a Social Networking Transport](id:email-as-social-networking-transport)
 
-The industry lacks an open social network. A social network can be build ontop of email: the user interface can  be a specialised email client with email as the transport mechanism. Everybody has an email address and web frameworks can easily communicate using mail protocols.
+The industry lacks an open social network. A social network can be build on top of email: the user interface can  be a specialised email client with email as the transport mechanism. Everybody has an email address and web frameworks can easily communicate using mail protocols.
 
 Email can be used as a common denominator protocol. A flexible and federated social network would abstract the protocol used for communication and upgrade to a better or efficient protocol when appropriate such as realtime  applications or when sharing files.
 
@@ -80,7 +80,7 @@ Examples:
 A blogger is reviewing a number of products on an ongoing basis. The
 blogger creates a post for a given product category and headings for
 each offering. Attributes and ratings are placed in a bulleted list. The
-blogger endeavours to update the blog post whenever information changes
+blogger endeavors to update the blog post whenever information changes
 regarding a product or when a new product is to be reviewed.
 
 
@@ -270,7 +270,7 @@ Potential integrations:
 
 ## 13. Package Driven Development
 
-Software complexity prohibits quick and repeatable set-ups. Software should be written to be packageable and repeateable from the beginning.
+Software complexity prohibits quick and repeatable set-ups. Software should be written to be packageable and repeatable from the beginning.
 
  * Not only does software need testing but the packages do too.
  * Installing the package should be enough (minus configuration) to begin running software
@@ -284,7 +284,7 @@ Existing:
  
 Infrastructure is complicated and the relationships between hosts, paths, ports and servers create a web of complexity. Tools like Chef and Puppet help generate configuration files that programs can read. A configuration spider would allow detecting and connecting the relationships between these configuration files.
 
-The spider would scan for configuration files, identify port numbers, paths and hostnames to insert into a graph. When the spider detects a reference to the same value, it creates an edge from both usages to the actual data. This graph then becomes a reprsentation of system configuration, the edges link the configuration values are live and synchronized, an administrator can change the data in a single location and cause the usages to update. This could be rendered to the screen as a graph.
+The spider would scan for configuration files, identify port numbers, paths and hostnames to insert into a graph. When the spider detects a reference to the same value, it creates an edge from both usages to the actual data. This graph then becomes a representation of system configuration, the edges link the configuration values are live and synchronized, an administrator can change the data in a single location and cause the usages to update. This could be rendered to the screen as a graph.
 
 ## 15. Community Idea: [Create This](id:create-this)
 
@@ -310,9 +310,9 @@ Existing:
  * Kickstarter, in reverse
  * [Things I want Made](http://thingsiwantmade.com/)
 
-## 17. Clientside Bubble Routing
+## 17. Client-side Bubble Routing
 
-Bubble routing is an approach to detecting and handling events on the clientside. Most frameworks do not use bubbling to its full potential, they create a handler for each area where an event needs to be handled and stop propagation once it has been handled. Bubble routing uses a single event handler by taking advantage of the natural structure of the DOM and bubbling. Each element the event passes through enhances the information of the request before it gets to the topmost level where the event is actually handled.
+Bubble routing is an approach to detecting and handling events on the client side. Most frameworks do not use bubbling to its full potential, they create a handler for each area where an event needs to be handled and stop propagation once it has been handled. Bubble routing uses a single event handler by taking advantage of the natural structure of the DOM and bubbling. Each element the event passes through enhances the information of the request before it gets to the topmost level where the event is actually handled.
 
  * Example: http://fiddle.jshell.net/SWrX5/17/
 
@@ -343,7 +343,7 @@ When I right click a [representation of a file](#elements-represent-themselves) 
  * `Pull out of Folder` move the files in a folder out of the directory
  * `Copy Path` I shouldn't need to open a properties dialog to copy the path from or construct the path myself.
  * `Storage Usage` right click and view disk usage of the file in relative to everything else on the storage device
- * `Outsource` move the storage of the file elswhere but keep a link to the file here
+ * `Outsource` move the storage of the file elsewhere but keep a link to the file here
  * `Compress`, `Convert`
  * `Security Settings` Add file permissions, encryption and enforce rules.
  * `Share` Make this file available to another person or machine.
@@ -422,7 +422,7 @@ For example,
 
 ```git status -s```
 
-Gives me the status of each file and the filename. If I want to use this data in Javascript or in Ruby I have to parse this text manually. Ultimately the structural output of this command is this same every time. There is a list of structured data with a consistent format that could be idiomatically represented in many languages. In Javascript this could be:
+Gives me the status of each file and the filename. If I want to use this data in JavaScript or in Ruby I have to parse this text manually. Ultimately the structural output of this command is this same every time. There is a list of structured data with a consistent format that could be idiomatically represented in many languages. In JavaScript this could be:
 
 ```
 {"file": "hello.py", "status": "modified"}
@@ -477,7 +477,7 @@ Existing:
 
 If every compiler error is automatically converted into an issue and then automatically closed when it is absent, this would give visibility to problems that were solved and which still remain. This could be integrated with a build system.
 
-There should also be some kind of mapping between the product's error state and a potential issue number. Currently the connection between an error condition and an issue in a tracking system is completely human - someone has to manually enter the error into an issue tracker and update the program to refer to it. Bug reporting should either be intregrated into an application or interpreted by the desktop or container environment. The error state should be detectable and linked to the issue tracker.
+There should also be some kind of mapping between the product's error state and a potential issue number. Currently the connection between an error condition and an issue in a tracking system is completely human - someone has to manually enter the error into an issue tracker and update the program to refer to it. Bug reporting should either be integrated into an application or interpreted by the desktop or container environment. The error state should be detectable and linked to the issue tracker.
 
  * An graphical application facing an error condition typically reports errors a dialog. This dialog should display the known cases that cause this error. This is possible because Error Condition X was mapped to Issue Y which had associated Reason Z.
 
@@ -498,7 +498,7 @@ Error copying files: drive removed. Typically caused by:
 
 ## 25. Error Heuristics
 
-Errors have numerous causes. Once an error becomes common enough and becomes common knowledge, it may not be justified to adjust the program to provide a better error mesage because the error is human. Separate tools can take advantage of heuristics can provide better insight to the problem. For a compiler error, this heuristic knows where to begin its search. These tools do not necessarily need to check if the error exists, they merely provide heuristics that help narrow down the problem. For example:
+Errors have numerous causes. Once an error becomes common enough and becomes common knowledge, it may not be justified to adjust the program to provide a better error message because the error is human. Separate tools can take advantage of heuristics can provide better insight to the problem. For a compiler error, this heuristic knows where to begin its search. These tools do not necessarily need to check if the error exists, they merely provide heuristics that help narrow down the problem. For example:
 
 ```
 Line 13: user.mailboxes()[selectedMailbox].preferences: undefined is not a function
@@ -521,7 +521,7 @@ Existing:
  * Windows Reliability Problem and Reports
  * Brew Doctor
  
-## 26. System-wide Data interpeters
+## 26. System-wide Data interpreters
 
 There are many data patterns that are not explicitly marked up.
 
@@ -546,7 +546,7 @@ Existing:
 
 ## 27. Applications Expose Data Visually and Programmatically
 
-The data that is being rendered by an application can be inspected and used as a datasource for another interface. This should also be programmatically accessible.
+The data that is being rendered by an application can be inspected and used as a data source for another interface. This should also be programmatically accessible.
  
  * An open folder manager window has a folder open. Amongst other things, this can be interpreted as a list of dates and times (for the files in the folder). A calendar program can read and display the sequence of dates and times to show when files were created/modified along a timeline. This may be useful with photographs.
  
@@ -573,7 +573,7 @@ Existing:
 
 ## 28. [Representations are Tests](id:representations-are-tests)
 
-A representation dictates what something is and what you can do with it. A PNG file, a JSON document, C sourcecode or a HTML file are accepted as inputs by different applications and operations. How do we know that that applications are interoperable and compatible? Representations can be inferred by the tests that they pass. This is similar to a type inferring programming language: we can build tests that represent high level qualities about applications and data formats. These are some high level examples that reason about the outputs or characteristics of programs or representations:
+A representation dictates what something is and what you can do with it. A PNG file, a JSON document, C source code or a HTML file are accepted as inputs by different applications and operations. How do we know that that applications are interoperable and compatible? Representations can be inferred by the tests that they pass. This is similar to a type inferring programming language: we can build tests that represent high level qualities about applications and data formats. These are some high level examples that reason about the outputs or characteristics of programs or representations:
 
  * An sort algorithm that is stable or unstable.
  * Benchmarks to estimate space and time complexity. ([similar to cost aware computing](cost-aware-computing))
@@ -628,13 +628,13 @@ Potential integrations:
  * Explorable Context/What can I use 
  * Microservice compilation for performance
 
-## 31. Mounting Sourcecode
+## 31. Mounting Source Code
 
 Sourcecode we compile or execute need not be the same as that rendered to the screen. Developers should be able to work on the same code base but view sourcecode in different ways. Mounting a source directory means we can apply bidirectional transformations between the stored sourcecode and what is opened in a text editor.
 
 Coding style preferences can be configured on the mounted source code so that it appears according to the developer's taste. Developers can choose indention rules and spacing settings without affecting other developers. This is is like mapping between two [EditorConfig](http://editorconfig.org/) configurations automatically.
 
-Personal preference also changes how people like to organize sourcecode by directory. Directory structures can be equivalents:
+Personal preference also changes how people like to organize source code by directory. Directory structures can be equivalents:
 
 ```
  - src
@@ -673,7 +673,7 @@ The 'Built-In Enemy' is a suite of heuristics that find security problems on a m
  
  * versions of libraries or running software
  * permission problems, the permissions of running applications (user, group)
- * exploit frameworks that run expoit attempts locally
+ * exploit frameworks that run exploit attempts locally
  * looks for known in known versions of software
  * looks for weaknesses in the SSL certificates
 
@@ -731,7 +731,7 @@ Users can therefore be warned when a user attempts to update something that has 
  * When the user enters makes a change to a node in the HTML/XML file, this registers a change at this position in the file.
  * Any users who also enter this node will be warned about conflicts when they attempt to change the file.
  
-This should permit multiple users editing the same file without tripping eachother up.
+This should permit multiple users editing the same file without tripping each other up.
 
 Existing:
 
@@ -739,7 +739,7 @@ Existing:
 
 ## 36. Documentation Linked Code
 
-Documentation and wikis are prone to fall behind a code base. Creating documentation from sourcecode or embedding documentation in the sourcecode are approaches to keeping documentation. Documentation and code should be linked together in such a way that it is difficult for it to fall out of date.
+Documentation and wikis are prone to fall behind a code base. Creating documentation from source code or embedding documentation in the source code are approaches to keeping documentation. Documentation and code should be linked together in such a way that it is difficult for it to fall out of date.
 
  * When code is visible in an IDE or in a text editor, the **relevant** documentation for this area should be quickly available to edit. This could be a panel, a tab or a split view that updates to always display documentation.
  * Documentation acts as a specialised test case. When example code in the documentation no longer compiles the build should fail.
@@ -747,14 +747,14 @@ Documentation and wikis are prone to fall behind a code base. Creating documenta
 
 ## 37. [Code Overlays](id:code-overlays)
 
-Code overlays can make sourcecode more like a document and easier to read. Source code editors make poor use of space when rendering code. For example:
+Code overlays can make source code more like a document and easier to read. Source code editors make poor use of space when rendering code. For example:
 
 ```
 someLongMethodName	(type identifier, type identifier, type identifier,
 					type identifier, type identifier type identifier
 					type identifier, type identifier, type identifier)
 ```
-Code quality problems aside, an IDE does not necessarily need to display this exactly the way the source is. There is wasted space below the method name. An auto-indenter could align the source perfectly but this seems like catering to the plaintext format of sourcecode rather than the expressive power of a user interface. 
+Code quality problems aside, an IDE does not necessarily need to display this exactly the way the source is. There is wasted space below the method name. An auto-indenter could align the source perfectly but this seems like catering to the plain text format of source code rather than the expressive power of a user interface. 
 
 This could be rendered like a table:
 
@@ -766,7 +766,7 @@ type | identifier	| type | 	identifier | type | identifier
 type | identifier	| type | 	identifier | type | identifier
 type | identifier	| type | 	identifier | type | identifier
 
-This tabular widget would permit moving cells up and down or left and right to manipulate the ordering of the arguments list. This would update the ordering of the underlying sourcecode without using a refactoring dialog.
+This tabular widget would permit moving cells up and down or left and right to manipulate the ordering of the arguments list. This would update the ordering of the underlying source code without using a refactoring dialog.
 
 
 ## 38. Code as a Wiki
@@ -778,7 +778,7 @@ Code is inherently linked and related. This is similar to wikis and the nature o
  
 Existing:
 
- * [OpenGrok](http://opengrok.github.io/OpenGrok/) readonly wiki
+ * [OpenGrok](http://opengrok.github.io/OpenGrok/) read-only wiki
  
 ## 39. Data Trails
 
@@ -800,7 +800,7 @@ The embeddable widgets that platforms provide should be interchangeable and inte
 
 A widget represents data on the screen. It has a limited amount of space because it must co-operate with other widgets on the screen to give the entire screen meaning. Widgets are constrained horizontally and vertically. The amount of data that widgets should display depends on the current geometry. A drill down interface would allow to the user to inspect a particular facet of the interface and give it more importance, perhaps by double clicking it. This would trigger a resize of all the widgets on the screen to accommodate the user's change of focus. This would result in widgets disappearing and others appearing.
 
- * User Interfaces should not be considred merely the output of a program, they are an interactive program separate to business logic that the user drives and is in full control.
+ * User Interfaces should not be considered merely the output of a program, they are an interactive program separate to business logic that the user drives and is in full control.
 
 Examples:
 
@@ -840,7 +840,7 @@ The context available in a given situation should be easily accessible and disco
 
 For example, a request is made, the server knows what user is making the request and the user is in a particular stage of the workflow. Information about the previous stages of the workflow is part of the context of this request. This data can be rendered in an interface to show what really is available - seeing the data available makes it easier to find out what you want to use when you don't know what you're looking for.
 
-## 43. [Cost Aware Computing](id:cost-aware-computing)
+## 43. [Cost-Aware Computing](id:cost-aware-computing)
 
 Algorithm complexity and hardware specific characteristics could mean that a given algorithm or library is more optimal for certain configurations. An algorithm used on a desktop may not always be the best on a mobile phone. A library used on a server may not be useful on a laptop.
 
@@ -866,7 +866,7 @@ Traditional content management tools define rigid input formats and inflexible G
 I might not know how everything should look or act in my article until later. A tool should allow me to:
 
  * **Specify the Placeholder (or Intention)** When I want to include something on the page, I should specify what I am adding. This could be, 'gallery', 'price of item X in database', a reference to a Twitter hashtag or a presentation. This could be textual description, a tag, a RDF/N3 or some kind of relationship that identifies the added content in some way. This could even be a description of what the content creator wants to include - a note or requirement for consuming by a developer or the designer behind the website.
- * **Embed the Known (Data)**: This is the actual content known at the moment of authorship. Likely this will have a known format and meaning. This may be a file path, URL, description of a HTTP request, hostnames, port numbers, actual sourcecode and arbitrary XML elements. Sometimes there will be no data and the intention is data, in this case the intention is simply a transclusion point.
+ * **Embed the Known (Data)**: This is the actual content known at the moment of authorship. Likely this will have a known format and meaning. This may be a file path, URL, description of a HTTP request, hostnames, port numbers, actual source code and arbitrary XML elements. Sometimes there will be no data and the intention is data, in this case the intention is simply a transclusion point.
  * **View the transclusion points** This is the most important part. This is an interface that displays all the places where particular intentions/placeholders have been used. This is like a workflow system that shows all the 'unresolved' placeholders. Some placeholders/intents are implicit, such as URLs which you may wish to handle specifically depending on the address.
  
 By treating the transclusion points as independent items to be tracked and controlled, we have better control of content that can evolve over time and stay consistent between pages. The transclusion points are 'holes' to be filled by some arbitrary process defined in the future or not at all.
@@ -883,7 +883,7 @@ Description | Handler | Uses
 `#` | Hashtag | Twitter link | 
 `[bbcode][/bbcode]` | BB Code handler | Used on 1 page |
 `<sql>` XML element | No handler registered | Used on 2 pages |
-`<code>` HTML element | No hadler registered | Used on 5 pages |
+`<code>` HTML element | No handler registered | Used on 5 pages |
 
 Interface defined at authorship is similar to mail merge except the user does not care about the 'field format' and how the fields are transformed can be customized. IDAA can make web development simpler as content creators, designers and programmers stay in their respective domains working in parallel.
 
@@ -912,7 +912,7 @@ Existing:
 
 ## 45. Community Idea: Secure Configuration Distribution
 
-Many applications ship with default configurations that are more likely to be vulnerable. A communiy could discuss the security of configuration options and offer files or patchers that ensure that common applications have proper settings. Examples would be preconfigured settings for Firefox, Chrome, Adobe Reader and Word.
+Many applications ship with default configurations that are more likely to be vulnerable. A community could discuss the security of configuration options and offer files or patchers that ensure that common applications have proper settings. Examples would be preconfigured settings for Firefox, Chrome, Adobe Reader and Word.
 
 ## 46. RESTful Living Documents
 
@@ -1009,14 +1009,14 @@ Existing:
 
 ## 51. Native Web Libraries
 
-Web libraries are natively implemented versions of Javascript libraries. The interface of a web library is actually Javascript. A web library is always written in Javascript first. When performance problems need to be resolved, the moving parts can be implemented in a non-Javascript language and installed in the browser.
+Web libraries are natively implemented versions of JavaScript libraries. The interface of a web library is actually JavaScript. A web library is always written in JavaScript first. When performance problems need to be resolved, the moving parts can be implemented in a non-JavaScript language and installed in the browser.
 
-The idea is that native libraries can be added to stand-in for Javascript-libraries purely for performance reasons. These native versions would be able to act directly on the browsers internals as if the API calls were native. There should be no difference in functionality between the Javascript library and the web library.
+The idea is that native libraries can be added to stand-in for JavaScript libraries purely for performance reasons. These native versions would be able to act directly on the browsers internals as if the API calls were native. There should be no difference in functionality between the JavaScript library and the web library.
 
 ```
 navigator.require('http://example.net/library')
 ```
-Where `library` is a URL to a Javascript file that is used as a key to find an installed web library. The Javascript version is used as fallback.
+Where `library` is a URL to a JavaScript file that is used as a key to find an installed web library. The JavaScript version is used as fallback.
 
 Usecases:
 
@@ -1027,12 +1027,12 @@ Usecases:
 
 Potential integration:
 
- * Automated aspect oriented development - mapping particular Javascript function calls to native calls while leaving the rest in the Javascript engine. (cut points in Javascript)
+ * Automated aspect oriented development - mapping particular JavaScript function calls to native calls while leaving the rest in the JavaScript engine. (cut points in JavaScript)
  * Component loader frameworks
 
 ## 52. Account Management Protocols
 
-Manging digital accounts is tedious as each account provider has its own graphical interface and no machine readable API. An account management protocol would allow the following:
+Managing digital accounts is tedious as each account provider has its own graphical interface and no machine readable API. An account management protocol would allow the following:
 
  * changing of password
  * updating of email address and personal details
@@ -1069,10 +1069,10 @@ A page in a web application can be modelled as its own API of user behaviour.
 
 There is no website that allows the comparing different technology stacks. There would be a page for every permutation of technology, for example the following might be common technology pairs:
 
- * MySql and PHP
+ * MySQL and PHP
  * Node and MongoDB
  
-These pairs can included in complete technology stacks such as linux, apache, MySQL and PHP (LAMP). This may go increasingly in depth to particular database abstraction layers, web frameworks and libraries. Each page will have a list of advantages and existing projects using this stack. As projects are added, the stacks will become more specific. Attributes from individual technology interactions will rise up to the entire stack.
+These pairs can included in complete technology stacks such as Linux, Apache, MySQL and PHP (LAMP). This may go increasingly in depth to particular database abstraction layers, web frameworks and libraries. Each page will have a list of advantages and existing projects using this stack. As projects are added, the stacks will become more specific. Attributes from individual technology interactions will rise up to the entire stack.
 
 As a user of this site, I may begin by exploring:
 
@@ -1108,7 +1108,7 @@ To be lightweight but useful, these examples could be implemented:
  * with simple APIs to add items and fetch items programmatically
 
 
-## 57. Acceptance Criteria Issue Tracker Intregration 
+## 57. Acceptance Criteria Issue Tracker Integration 
 
 ```
 WHEN I click the search box
@@ -1116,7 +1116,7 @@ AND this is my first time I've used the search box
 THEN the text should be cleared
 ```
 
-This acceptance criteria follows the convention for `WHEN` and `THEN` in BDD style. Developers or testers may write automated tests with BDD tools and copy these strings into sourcecode. This is introducing a gap between where the ACs are defined and the place where they are tested. Ideally the testing should occur against the story and the AC from the story is the souce of truth. The following has taken the AC from the control of non-developers through copying AC into code:
+This acceptance criteria follows the convention for `WHEN` and `THEN` in BDD style. Developers or testers may write automated tests with BDD tools and copy these strings into source code. This is introducing a gap between where the ACs are defined and the place where they are tested. Ideally the testing should occur against the story and the AC from the story is the source of truth. The following has taken the AC from the control of non-developers through copying AC into code:
 
 ```
 var ac = {
@@ -1139,7 +1139,7 @@ ac("the text should be cleared")
 ```
 If the story's AC changes, the above test will fail because the test no longer matches the acceptance criteria. 
 
-Strings may not be the ideal representations of acceptance criteria for they could change. AC may have similaraties with other stories and duplication creates maintainability problems. These may need a more robust link against the code that tests them.
+Strings may not be the ideal representations of acceptance criteria for they could change. AC may have similarities with other stories and duplication creates maintainability problems. These may need a more robust link against the code that tests them.
 
 Builds now run acceptance criteria tests so that functionality is not broken through future changes.
 
@@ -1154,7 +1154,7 @@ Many bugs have common symptoms. These symptoms could be collected into a suite o
 
  * keywords such as 'undefined', 'null', 'nil' appearing in HTML
  * an element on the page containing no children
- * javascript error on page load
+ * JavaScript error on page load
  * XHR requests that contain keywords like 'undefined' or 'null'
  * server responses that contain keywords such as 'null', 'undefined'
  * presence of strange or meaningful numbers such as '-1', '32768'
@@ -1169,7 +1169,7 @@ Many bugs have common symptoms. These symptoms could be collected into a suite o
 
 The internet has made it easy to leak sensitive or confidential information. A dedicate web proxy could scan all traffic for keywords that match known sensitive information and reject it. This requires users define what they deem sensitive.
 
-This is especially important as data is always being passively collected by web pages in Javascript.
+This is especially important as data is always being passively collected by web pages in JavaScript.
 
 Potential integration:
 
@@ -1185,7 +1185,7 @@ The branches of Git projects can be visualized as connected circles where branch
 
 Existing:
 
- * Gitk but readonly
+ * Gitk but read-only
 
 ## 62. Salary Structure as a Program
 
@@ -1233,10 +1233,10 @@ Many website forms and native applications with wizards request data across mult
 
 ## 67. Hardware Review
 
-A hardware reiew process shows how powerful your current set of detected hardware is.
+A hardware review process shows how powerful your current set of detected hardware is.
 
  * show which components are letting your machine down
- * show approximate value at release vs current value
+ * show approximate value at release vs. current value
  * show benchmark results
  * shows release date and hardware generation
  * shows what applications might struggle with this configuration
@@ -1282,7 +1282,7 @@ Gamification as currently realized by industry is not the same as using game int
 Examples:
 
 ```
-A clinic has 3 general practicioner rooms, a waiting room, staff (receptionists, GPs, nurses) and stock of medicine. These are some of the resources being managed:
+A clinic has 3 general practitioner rooms, a waiting room, staff (receptionists, GPs, nurses) and stock of medicine. These are some of the resources being managed:
 
  * timing of appointments and staff tasks
  * physical space for procedures
@@ -1308,7 +1308,7 @@ We can answer questions:
 
 We can adapt the rules of the game and check the results:
 
- - a room becomes unavailable for use by patients perhaps due to a tecnical fault. How will we assign patients and GPs to rooms now?
+ - a room becomes unavailable for use by patients perhaps due to a technical fault. How will we assign patients and GPs to rooms now?
  - can we predict what repeat patients will need in terms of medicine so we can order less frequently?
  - can we detect when staff members are in demand to minimize waiting?
  - how can we make patients feel they are not being rushed and waiting endlessly?
@@ -1433,7 +1433,7 @@ Potential integrations:
 
 ## 79. File Wires
 
-Kepeing the data within and between files is difficult to keep synchronized. It should be possible to 'wire' up portions of files with other portions or other files so that they stay synchronized. This would be useful:
+Keeping the data within and between files is difficult to keep synchronized. It should be possible to 'wire' up portions of files with other portions or other files so that they stay synchronized. This would be useful:
 
  * in configuration files and in documentation: being able to include a port number that always updates when the configuration file changes
  * in a large document where there are phrases, proper nouns, numerical or bibliographical references that one would like to keep synchronized.
@@ -1452,19 +1452,19 @@ The 'wire' is the binding of data between two locations. Depending on the format
  * a meaningful element in the file such as a heading or XML element
  * a reference to a marker or reference point in the document
 
-Essentially, file wires turn every decomposable part of a file into a mail merge field source and destinaton but the field references are out of band and need not be stored in the file.
+Essentially, file wires turn every decomposable part of a file into a mail merge field source and destination but the field references are out of band and need not be stored in the file.
 
 Potential integration:
 
  * Existing mailmerge formats
- * Text editor algorithmns: Ropes, [B-tree](http://codemirror.net/demo/btree.html): a special file system driver could intercept writes and reads from files with known formats to make file wires more efficient
+ * Text editor algorithms: Ropes, [B-tree](http://codemirror.net/demo/btree.html): a special file system driver could intercept writes and reads from files with known formats to make file wires more efficient
 
 
 ## 80. "Playhouse": Repeatable Prototyping
 
 Most rapid application development tools force developers to work within the confines of the tool and make it difficult to graduate to a realistic environment. Setting things up and configuring software is an impediment to prototyping ideas. A developer playhouse would take many different technologies and let them be experimented with from one interface without wrapping up the underlying technologies with proprietary code:
 
- * Provide a simple 'view' of a project's complex directory struture by showing panels for the most important files. For exampe, JSBin and JSFiddle show HTML, Javascript and CSS panels - all that are needed to write a simple prototype.
+ * Provide a simple 'view' of a project's complex directory structure by showing panels for the most important files. For example, JSBin and JSFiddle show HTML, JavaScript and CSS panels - all that are needed to write a simple prototype.
  * REPLs for many different languages
  * Prototyping with frameworks: Express, Sinatra, Flask
  * Provision of servers.
@@ -1476,7 +1476,7 @@ When Playhouse is installed, you point it at a folder.
 
  * You click 'Express' and are given a panel for your app.js, your NPM dependency file.
  * You select 'Chef' and are given a tab for 'Infrastructure' and are given a tab for a new recipe file and a SSH terminal.
- * User submitted recipes are browseable on one side to get started with common applications or stacks.
+ * User submitted recipes are browsable on one side to get started with common applications or stacks.
 ```
 
 Existing:
@@ -1502,7 +1502,7 @@ Potential integrations:
 
 When writing a controller we can interact with a library directly or we can interact with a remote service and offload the work to another machine. For example, Facebook uses RPC internally so that various microservices collaborate to fulfil a request. Inline HTTP microservice compilation would require a developer to always interact with a library through a HTTP interface. This would involve a single web request fanning out to many requests. If performance problems become an issue, the backend server behind the HTTP service can be 'inlined' or 'pulled into' the code base and replace the HTTP calls. That a HTTP interface is used should not cause overhead if a compilation or transformation step is used that avoids the network stack altogether. By using HTTP as the common interface, functionality can be pulled into the application layer or offloaded to a remote server on demand.
 
-Inlining code may require integration code that understands the project or sourecode of various web frameworks, such as a ruby on rails or nodejs project and knows how to pull in the code into the codebase. The possibility of rewriting code at compile time could further be used to improve efficiency.
+Inlining code may require integration code that understands the project or sourecode of various web frameworks, such as a Ruby on Rails or Node.js project and knows how to pull in the code into the codebase. The possibility of rewriting code at compile time could further be used to improve efficiency.
 
 If this could be implemented dynamically, servers could become truly elastic: when resources are plenty, the microservices run locally. When resources become constrained, the microservices run on separate machines. 
 
@@ -1522,7 +1522,7 @@ Inversion of control (IoC) containers could be used for widgets and the data the
  
 ## 84. Cache Timeout Read-in
 
-The statelessness of HTTP means that data is requested multiple times in order to fulful a request. For example, a multiple page form will typically involve queries to return the logged in user, the state of the form and the fields that have been completed. This data loaded by a web server in a controller may be useful across multiple requests. Memory caches keep data from expensive requests in memory until the next request. These caches need to be explicitly requested for the data to come available. A predictive cache read would associate a timeout with each HTTP request for when the data should be re-loaded into memory. When a user submits a form there will be a predictable delay until the next request. This lump of data - potentially representing the output of many queries - can then be associated with the user HTTP request. This data will only be read back into memory when the time delay elapses as a way of pre-empting the user's next request.
+The statelessness of HTTP means that data is requested multiple times in order to fulful a request. For example, a multiple page form will typically involve queries to return the logged in user, the state of the form and the fields that have been completed. This data loaded by a web server in a controller may be useful across multiple requests. Memory caches keep data from expensive requests in memory until the next request. These caches need to be explicitly requested for the data to come available. A predictive cache read would associate a timeout with each HTTP request for when the data should be re-loaded into memory. When a user submits a form there will be a predictable delay until the next request. This lump of data - potentially representing the output of many queries - can then be associated with the user HTTP request. This data will only be read back into memory when the time delay elapses as a way of preempting the user's next request.
 
 Potential integrations:
 
@@ -1547,7 +1547,7 @@ With this information it might be possible to:
 
  * submit bug reports from the desktop environment when an application has crashed
  * easy to create a mirror for a local network or for use by a guest virtual machine
- * download sourcecode for an binary
+ * download source code for an binary
  * plot a timeline showing the predicted upgrades for a machine
 
 Existing:
@@ -1577,7 +1577,7 @@ Existing:
 When similar events occur in succession where each in isolation would have displayed a dialog, there is a risk that they block and have to be dealt with separately or they stack on-top of one another. Examples of where this is often a problem:
 
  * copying or transferring files
- * error mesage dialogs 
+ * error message dialogs 
  * desktop environment notifications
  * wizard dialogs
 
@@ -1730,9 +1730,9 @@ Computer systems and interfaces are obtuse and do not describe what they are doi
  
 These would be displayed as a overview style format in a similar style to that of a landing page for a product or service online. Each section above might be expandable (such as select a feature and learn how it works.) and linked to further information to learn more.
 
-An advanced user should be able to view the sourcecode of an application in a literate interface. The emphasis is of a readable view of the sourcecode as opposed to an editing environment to help the users understand how this particular application functions.
+An advanced user should be able to view the source code of an application in a literate interface. The emphasis is of a readable view of the source code as opposed to an editing environment to help the users understand how this particular application functions.
 
- * When I inspect a running application, I want to know all the technologies that are being used. The architecture, how the application is split into modules. What each thread is actually doing. I want to see state diagrams and workflows. I want to see the queryable services that the running aplication provides: perhaps those provided by IPC or over the network and the protocols. I want to see what widgets are currently on the screen and what they are populated with. I should be able to jump to the sourcecode, application side and library side when clicking these items. I want to see what algorithmns are being used and visualizations of how the algorithmns work, perhaps leading to a [code journey](#code-journey).
+ * When I inspect a running application, I want to know all the technologies that are being used. The architecture, how the application is split into modules. What each thread is actually doing. I want to see state diagrams and workflows. I want to see the queryable services that the running application provides: perhaps those provided by IPC or over the network and the protocols. I want to see what widgets are currently on the screen and what they are populated with. I should be able to jump to the source code, application side and library side when clicking these items. I want to see what algorithms are being used and visualizations of how the algorithms work, perhaps leading to a [code journey](#code-journey).
  * Encyclopedic entries are programs that take a state and generate a document describing the state of the widget, perhaps written by that representation's author. For example, a widget author understands the internals of the widget and knows how to create a visualization of how the widget functions. This content would be transcluded into the parent encyclopedic entry for the program.
 
 Goals:
@@ -1755,7 +1755,7 @@ Viewpoints of a discussion can be identified, related and analysed independently
 
 ## 98. The Desktop is an Integrated Development Environment
 
-A desktop environment is a development environment except windows and widgets are the files and the user's inputs are the lines of code. A desktop environment should be malleable to change in a similar way that the contents of the DOM (Document Object Model) of a web application can be easily changed. A web developer does not need to re-compile sourcecode to change how an application appears.
+A desktop environment is a development environment except windows and widgets are the files and the user's inputs are the lines of code. A desktop environment should be malleable to change in a similar way that the contents of the DOM (Document Object Model) of a web application can be easily changed. A web developer does not need to re-compile source code to change how an application appears.
 
 If applications were designed to separate:
 
@@ -1769,12 +1769,12 @@ Then the desktop environment and the user can override parts of the above behavi
 
  * a user could select an interesting region of a complex interface and 'send it to the notification area' or 'promote it to the titlebar' so that they can cut and splice the user environment how they like. This would be provided by the environment - not specifically coded. ([How can I display a live screenshot of a piece of another application?](http://blogs.msdn.com/b/oldnewthing/archive/2013/05/13/10417964.aspx))
  * the user can interrogate and inspect the information underlying information a widget is displaying and add behaviour to it
- * right click a 'disk usage' indicator and select 'monitor' and create a notification when disk usage reaches a threshold. The desktop environment is smart enoguh to know it is not the widget itself that is being monitored but the underlying data the widget is displaying.
+ * right click a 'disk usage' indicator and select 'monitor' and create a notification when disk usage reaches a threshold. The desktop environment is smart enough to know it is not the widget itself that is being monitored but the underlying data the widget is displaying.
 
 ```
 Example: A configuration file 
 
- - A simple visualization of a configuration file is a plaintext editor.
+ - A simple visualization of a configuration file is a plain text editor.
  - The next layer may be a tree structure to navigate the blocks of the file.
  - The next step would be to provide proper widgets for every value.
  - The next step may be wizards to generate certain blocks of the configuration file.
@@ -1819,7 +1819,7 @@ A directory can be domain specific and relevant to the types of files displayed.
 
  * In many file managers where folders appear first and there are many folders, no files can be seen. Folders and files could be arranged in a way that makes files and folders obvious immediately. Directories could be positioned along the top and down the right-hand side to make a `-|` shape to avoid the situation where only folders can be seen without scrolling down. This could then be sticky as the user scrolls down so that the user can always access folders.
  * Icons are scaled according to relative importance in the directory.
- * The background colors are arbitrary coloured to group certain files, perhaps with titles. A packing algorithm can a ensure that certain icons get arranged together in a pleasant way without breaking the uniform apperance of the icons.
+ * The background colors are arbitrary coloured to group certain files, perhaps with titles. A packing algorithm can a ensure that certain icons get arranged together in a pleasant way without breaking the uniform appearance of the icons.
 
 
 Existing:
@@ -1831,7 +1831,7 @@ Existing:
 Online tools like Zapier and drag-and-drop workflow systems enable users to mix up online services - this is something that should be possible across devices.
 
  * A user wants to do accomplish a task - these tasks should be directly browseable. The desktop environment should provide an interactive How To system that allows configurations to be created.
- * A user wants 1 feature in a product that offers 5. They do not necessarily care about the application. They have all the applications they want intalled but they want them to interact in a certain way.
+ * A user wants 1 feature in a product that offers 5. They do not necessarily care about the application. They have all the applications they want installed but they want them to interact in a certain way.
  * User can apply conditions to different tasks.
  * These configuration and underlying services and applications required for these tasks could span across multiple devices and machines.
  * Adding behaviours or integrating behaviours between running services and applications should be like a marketplace for features rather than applications.
