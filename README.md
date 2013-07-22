@@ -994,6 +994,19 @@ Existing:
  * Saving a web page completely results in resource directory that appears adjacent to the HTML, even when moved.
  * Makefiles, compilation, linkage
 
+ * [Composite pattern](https://en.wikipedia.org/wiki/Composite_pattern), 
+   **[Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)**
+ * [HTTP WebHooks](https://en.wikipedia.org/wiki/Webhook)
+   ([GitHub ->](https://github.com/github/github-services),
+   [BitBucket ->](https://confluence.atlassian.com/display/BITBUCKET/POST+Service+Management),
+   [-> ReadTheDocs](http://read-the-docs.readthedocs.org/en/latest/webhooks.html)
+   )
+ * [inotify](https://en.wikipedia.org/wiki/inotify),
+   [kqueue](https://en.wikipedia.org/wiki/Kqueue)
+   ([pyinotify](https://github.com/seb-m/pyinotify/tree/master/python2/examples))
+ * [livereload](http://livereload.com/)
+ * [Functional dependency](https://en.wikipedia.org/wiki/Functional_dependency),
+   [Referential integrity](https://en.wikipedia.org/wiki/Referential_integrity)
 
 ## 50. Renderers
 
