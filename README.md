@@ -260,6 +260,10 @@ mpm install script/https://get.rvm.io \
 	bundle/http://typosphere.org/stable.tgz
 ```
 
+Existing:
+
+ * [Docker](http://www.docker.io) (See for example [this Dockerfile](https://github.com/steeve/docker-opencv/blob/master/Dockerfile) [or that one](https://github.com/crosbymichael/redis/blob/add-dockerfile/Dockerfile) )
+
 Potential integrations:
 
  * Infrastructure as code
@@ -274,6 +278,7 @@ Software complexity prohibits quick and repeatable set-ups. Software should be w
 Existing:
 
  * [Vagrant](http://www.vagrantup.com/)
+ * [Docker](http://www.docker.io)
  
 ## 14. Configuration Spider
  
@@ -1482,7 +1487,7 @@ Existing:
 Existing Examples:
 
  * Yeoman, client side generators
- * Vagrant, Docker
+ * [Vagrant](http://www.vagrantup.com), [Docker](http://www.docker.io)
 
 
 ## 81. Widget Studio
