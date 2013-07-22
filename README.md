@@ -1026,6 +1026,11 @@ This can be accomplished through dedicated programs and regular expressions.
 Existing:
 
  * Mail clients that interpret phone numbers, dates and times for calendar integration.
+ * [Entity linking](https://en.wikipedia.org/wiki/Entity_linking),
+   [Regular Expression](https://en.wikipedia.org/wiki/Regular_expression),
+   [Rigid designator](https://en.wikipedia.org/wiki/Rigid_designator),
+   [URI schemes](https://en.wikipedia.org/wiki/URI_scheme#Official_IANA-registered_schemes) (e.g. `tel:`, `fax:`, `sms:`)
+ * http://schema.org/Person , http://schema.org/Event
 
 ## 51. Native Web Libraries
 
