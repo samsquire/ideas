@@ -309,6 +309,7 @@ Existing:
 
  * Kickstarter, in reverse
  * [Things I want Made](http://thingsiwantmade.com/)
+ * [Quirky](http://www.quirky.com)
 
 ## 17. Client-side Bubble Routing
 
