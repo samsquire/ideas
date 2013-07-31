@@ -416,7 +416,7 @@ Existing:
 
  * [Plan 9 ACME](http://doc.cat-v.org/plan_9/4th_edition/papers/acme/) (clicking certain strings has behaviour)
  * TermKit
- * Vimperator / [Pteradactyl](https://en.wikipedia.org/wiki/Pentadactyl_(extension)
+ * Vimperator / [Pentadactyl](https://en.wikipedia.org/wiki/Pentadactyl_(extension)
  * SCM Breeze or similar programs - this is limited to Git but its functionality should be part of the desktop environment and the shell
 
 ## 22. Shell as REPL
