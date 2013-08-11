@@ -314,6 +314,7 @@ Existing:
  * Kickstarter, in reverse
  * [Things I want Made](http://thingsiwantmade.com/)
  * [Quirky](http://www.quirky.com)
+ * [Cofundos](http://cofundos.org/)
 
 ## 17. Client-side Bubble Routing
 
@@ -1255,6 +1256,7 @@ Existing:
 
  * [BountySource](https://www.bountysource.com/)
  * [cantincan](https://www.catincan.com/)
+ * [Cofundos](http://cofundos.org/)
  
 ## 66. Wizards and Forms Request Data
 
