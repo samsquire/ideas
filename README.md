@@ -263,7 +263,9 @@ mpm install script/https://get.rvm.io \
 Existing:
 
  * [Docker](http://www.docker.io) (See for example [this Dockerfile](https://github.com/steeve/docker-opencv/blob/master/Dockerfile) [or that one](https://github.com/crosbymichael/redis/blob/add-dockerfile/Dockerfile) )
-
+ * [Smart Package Manager](http://linux.die.net/man/8/smart)
+ * [Puppet](https://github.com/puppetlabs/puppet/blob/master/lib/puppet/provider/package/pip.rb), [Chef](https://github.com/opscode/chef/blob/master/lib/chef/provider/package/easy_install.rb), [Salt](https://github.com/saltstack/salt/blob/develop/salt/modules/pip.py), and [Ansible](https://github.com/ansible/ansible/blob/devel/library/packaging/pip)?
+ 
 Potential integrations:
 
  * Infrastructure as code
