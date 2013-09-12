@@ -1240,7 +1240,8 @@ Adding notes to websites can function as a form of memory aid. It should be poss
 Backing up files to family and friends makes sense as a form of distributed off-site backup. This has been done by numerous services such as:
 
  * [Crashplan](http://crashplan.com/)
- * [Wuala](http://wuala.com/)
+ * [Tahoe-LAFS](http://tahoe-lafs.org/)
+ * [Git-Annex](http://git-annex.branchable.com/)
 
 Security could be enhanced by ensuring files are broken up into pieces in the style of Bit Torrent.
 
@@ -1260,6 +1261,7 @@ Existing:
  * [BountySource](https://www.bountysource.com/)
  * [cantincan](https://www.catincan.com/)
  * [Cofundos](http://cofundos.org/)
+ * [FreedomSponsors](http://freedomsponsors.org/)
  
 ## 66. Wizards and Forms Request Data
 
