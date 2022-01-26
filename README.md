@@ -149,7 +149,7 @@ Existing:
 
 Command auto-complete could be implemented by:
 
- * indexing the man pages to extract documentation for the arguments of every command
+ * indexing the man pages to extract documentation for the arguments of every command.
  * typing a command begins a searches the index for arguments and either displays completion of the argument and/or provides a documentation panel for that argument.
  * or applications expose what they provide (see [representational computing](#representational-computing))
 
@@ -162,6 +162,7 @@ Existing:
 
  * [Fish Shell](http://fishshell.com/)
  * [Finalterm](http://finalterm.org/)
+ * [sh-manpage-completions for bash/zsh](https://github.com/nevesnunes/sh-manpage-completions) using fish-shell's create_manpage_completions.py on GitHub
 
 Potential integrations:
 
