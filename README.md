@@ -9,8 +9,8 @@ This is a vision for how computing could be. I began writing ideas down a number
 * Please use the issues to discuss the ideas!
 * You don't have to read these ideas in order, you can jump about.
 * Looking for business ideas? Checkout my [startups repository](https://github.com/samsquire/startups) where I list business ideas.
-* [I post ideas on my blog](https://elaeis.cloud-angle.com/)
 * [Chinese translation](https://www.oschina.net/translate/one-hundred-ideas-for-computing)
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
