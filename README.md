@@ -7,6 +7,7 @@ This is a vision for how computing could be. I began writing ideas down a number
 * [See ideas3](https://github.com/samsquire/ideas3) I think they're even better than ideas2!
 * If you like my ideas, please don't hesitate to contact me and chat about them! If you want me to evaluate one of your ideas, I can help!
 * Please use the issues to discuss the ideas!
+* [Follow me on twitter](HTTPS://twitter.com/mrsamuelsquire)
 * You don't have to read these ideas in order, you can jump about.
 * Looking for business ideas? Checkout my [startups repository](https://github.com/samsquire/startups) where I list business ideas.
 * [Chinese translation](https://www.oschina.net/translate/one-hundred-ideas-for-computing)
